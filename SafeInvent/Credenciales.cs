@@ -16,15 +16,5 @@ namespace SafeInvent
         {
             InitializeComponent();
         }
-
-        private void test()
-        {
-
-            string test = "";
-
-            string tio = "Pirobo gonorrea";
-        }
-
-
     }
 }

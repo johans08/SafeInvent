@@ -26,14 +26,6 @@ namespace SafeInvent
             timerHora.Interval = 1000;
             // Iniciar el Timer
             timerHora.Start();
-
-            // Agregar datos y aplicar estilo de gradiente al gráfico Column (chartTest)
-            AgregarDatosAlGraficoColumn(chartTest);
-            AplicarEstiloGradiente(chartTest.Series[0], Color.Orange, Color.Yellow);
-
-            // Agregar datos y aplicar estilo de gradiente al gráfico Pie (chartPie)
-            AgregarDatosAlGraficoPie(chartPie);
-            AplicarEstiloGradiente(chartPie.Series[0], Color.Orange, Color.Yellow);
         }
 
         private void TimerHora_Tick(object sender, EventArgs e)
