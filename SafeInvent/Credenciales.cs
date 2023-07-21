@@ -16,5 +16,10 @@ namespace SafeInvent
         {
             InitializeComponent();
         }
+
+        private void test(){
+
+            string test = "";
+        }
     }
 }
