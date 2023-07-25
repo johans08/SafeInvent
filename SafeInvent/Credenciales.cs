@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaLogica.Api;
 
 namespace SafeInvent
 {
@@ -18,6 +19,25 @@ namespace SafeInvent
 			InitializeComponent();
 			CustomizeButton();
 		}
+
+		private void AgarrarDatos(string token)
+		{
+			var json = "{" +
+				"Usuraio: Test," +
+				"Password: test}";
+			APIClient testPost = new APIClient();
+			try
+			{
+				string usuario;
+				var datos = testPost.SendPostRequest("www.test.com", json, token);
+
+			}
+			catch
+			{ 
+			
+			}
+		}
+
 
 		private void CustomizeButton()
 		{
@@ -68,6 +88,11 @@ namespace SafeInvent
 			path.AddArc(rect.X, rect.Y + rect.Height - borderRadius, borderRadius, borderRadius, 90, 90);
 			path.CloseFigure();
 			return path;
+		}
+
+		private void Credenciales_Load(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

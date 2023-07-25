@@ -132,5 +132,11 @@
   <ItemGroup>
     <None Include="Resources\aspec credenciales %283%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{f1677a5d-86d7-434f-b3ee-ebd4bb36dedb}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

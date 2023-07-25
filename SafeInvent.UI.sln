@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeInvent", "SafeInvent\SafeInvent.csproj", "{C155B916-0525-4C63-8644-DD3EC15ED43C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{F1677A5D-86D7-434F-B3EE-EBD4BB36DEDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C155B916-0525-4C63-8644-DD3EC15ED43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C155B916-0525-4C63-8644-DD3EC15ED43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C155B916-0525-4C63-8644-DD3EC15ED43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1677A5D-86D7-434F-B3EE-EBD4BB36DEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1677A5D-86D7-434F-B3EE-EBD4BB36DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1677A5D-86D7-434F-B3EE-EBD4BB36DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1677A5D-86D7-434F-B3EE-EBD4BB36DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

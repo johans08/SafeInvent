@@ -43,18 +43,20 @@
 			this.pictureBox4 = new System.Windows.Forms.PictureBox();
 			this.pictureBox5 = new System.Windows.Forms.PictureBox();
 			this.buttonIngresar = new System.Windows.Forms.Button();
+			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtIcon)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtIcon2)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// pictureBox2
 			// 
 			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(864, 29);
+			this.pictureBox2.Location = new System.Drawing.Point(795, 34);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(116, 99);
 			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -65,9 +67,9 @@
 			// 
 			this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(-627, -98);
+			this.pictureBox1.Location = new System.Drawing.Point(-523, -13);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(1535, 744);
+			this.pictureBox1.Size = new System.Drawing.Size(1523, 627);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
@@ -77,7 +79,7 @@
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.DimGray;
-			this.label1.Location = new System.Drawing.Point(872, 150);
+			this.label1.Location = new System.Drawing.Point(813, 150);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(98, 17);
 			this.label1.TabIndex = 2;
@@ -86,7 +88,7 @@
 			// txtIcon
 			// 
 			this.txtIcon.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-			this.txtIcon.Location = new System.Drawing.Point(757, 187);
+			this.txtIcon.Location = new System.Drawing.Point(683, 179);
 			this.txtIcon.Name = "txtIcon";
 			this.txtIcon.Size = new System.Drawing.Size(364, 53);
 			this.txtIcon.TabIndex = 6;
@@ -95,7 +97,7 @@
 			// txtIcon2
 			// 
 			this.txtIcon2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-			this.txtIcon2.Location = new System.Drawing.Point(757, 260);
+			this.txtIcon2.Location = new System.Drawing.Point(683, 261);
 			this.txtIcon2.Name = "txtIcon2";
 			this.txtIcon2.Size = new System.Drawing.Size(364, 50);
 			this.txtIcon2.TabIndex = 7;
@@ -107,7 +109,7 @@
 			this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-			this.textBox1.Location = new System.Drawing.Point(824, 197);
+			this.textBox1.Location = new System.Drawing.Point(747, 189);
 			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(288, 34);
@@ -120,7 +122,7 @@
 			this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.textBox2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-			this.textBox2.Location = new System.Drawing.Point(824, 269);
+			this.textBox2.Location = new System.Drawing.Point(747, 268);
 			this.textBox2.Multiline = true;
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(288, 30);
@@ -132,7 +134,7 @@
 			this.checkBox1.AutoSize = true;
 			this.checkBox1.BackColor = System.Drawing.SystemColors.Control;
 			this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.checkBox1.Location = new System.Drawing.Point(875, 330);
+			this.checkBox1.Location = new System.Drawing.Point(807, 336);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(118, 17);
 			this.checkBox1.TabIndex = 11;
@@ -144,7 +146,7 @@
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Book Antiqua", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.Color.Indigo;
-			this.label3.Location = new System.Drawing.Point(898, 482);
+			this.label3.Location = new System.Drawing.Point(844, 490);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(95, 20);
 			this.label3.TabIndex = 12;
@@ -155,7 +157,7 @@
 			this.label4.AutoSize = true;
 			this.label4.Font = new System.Drawing.Font("Book Antiqua", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.ForeColor = System.Drawing.Color.DimGray;
-			this.label4.Location = new System.Drawing.Point(999, 482);
+			this.label4.Location = new System.Drawing.Point(945, 490);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(55, 20);
 			this.label4.TabIndex = 13;
@@ -166,7 +168,7 @@
 			this.label5.AutoSize = true;
 			this.label5.Font = new System.Drawing.Font("Book Antiqua", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label5.ForeColor = System.Drawing.Color.DimGray;
-			this.label5.Location = new System.Drawing.Point(778, 482);
+			this.label5.Location = new System.Drawing.Point(724, 490);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(114, 20);
 			this.label5.TabIndex = 14;
@@ -176,7 +178,7 @@
 			// 
 			this.pictureBox4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-			this.pictureBox4.Location = new System.Drawing.Point(781, 197);
+			this.pictureBox4.Location = new System.Drawing.Point(709, 189);
 			this.pictureBox4.Name = "pictureBox4";
 			this.pictureBox4.Size = new System.Drawing.Size(32, 25);
 			this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -187,7 +189,7 @@
 			// 
 			this.pictureBox5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-			this.pictureBox5.Location = new System.Drawing.Point(776, 269);
+			this.pictureBox5.Location = new System.Drawing.Point(704, 270);
 			this.pictureBox5.Name = "pictureBox5";
 			this.pictureBox5.Size = new System.Drawing.Size(37, 28);
 			this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -196,12 +198,22 @@
 			// 
 			// buttonIngresar
 			// 
-			this.buttonIngresar.Location = new System.Drawing.Point(824, 381);
+			this.buttonIngresar.Location = new System.Drawing.Point(747, 384);
 			this.buttonIngresar.Name = "buttonIngresar";
 			this.buttonIngresar.Size = new System.Drawing.Size(225, 59);
 			this.buttonIngresar.TabIndex = 17;
 			this.buttonIngresar.Text = "Ingresar";
 			this.buttonIngresar.UseVisualStyleBackColor = true;
+			// 
+			// pictureBox3
+			// 
+			this.pictureBox3.Image = global::SafeInvent.Properties.Resources.Logo_SinFondo;
+			this.pictureBox3.Location = new System.Drawing.Point(1142, 461);
+			this.pictureBox3.Name = "pictureBox3";
+			this.pictureBox3.Size = new System.Drawing.Size(130, 148);
+			this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox3.TabIndex = 18;
+			this.pictureBox3.TabStop = false;
 			// 
 			// Credenciales
 			// 
@@ -209,6 +221,7 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ButtonFace;
 			this.ClientSize = new System.Drawing.Size(1284, 611);
+			this.Controls.Add(this.pictureBox3);
 			this.Controls.Add(this.buttonIngresar);
 			this.Controls.Add(this.pictureBox5);
 			this.Controls.Add(this.pictureBox4);
@@ -226,12 +239,14 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Credenciales";
 			this.Text = "Credenciales";
+			this.Load += new System.EventHandler(this.Credenciales_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtIcon)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.txtIcon2)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -253,5 +268,6 @@
 		private System.Windows.Forms.PictureBox pictureBox4;
 		private System.Windows.Forms.PictureBox pictureBox5;
 		private System.Windows.Forms.Button buttonIngresar;
+		private System.Windows.Forms.PictureBox pictureBox3;
 	}
 }
